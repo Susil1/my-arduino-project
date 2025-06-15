@@ -1,0 +1,34 @@
+# Compiled Arduino files
+*.hex
+*.elf
+
+# Arduino build folders
+build/
+.pio/
+.pioenvs/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.DS_Store
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Arduino CLI cache
+__pycache__/
+.cache/
+*.bin
+
+# Mac/Linux/Windows hidden files
+*.swp
+*.swo
+*.bak
+
+# Wokwi cloud project cache (optional)
+.wokwi/
