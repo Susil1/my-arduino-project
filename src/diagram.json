@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "Susil Sahoo",
+  "editor": "wokwi",
+  "license": "MIT",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 100,
+      "left": 100
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 50,
+      "left": 200,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 150,
+      "left": 200
+    }
+  ],
+  "connections": [
+    [ "uno:13", "led1:A", "green", [ "v0" ] ],
+    [ "led1:C", "uno:GND", "black", [ "v0" ] ],
+    [ "btn1:1", "uno:2", "blue", [ "v0" ] ],
+    [ "btn1:2", "uno:GND", "black", [ "v0" ] ]
+  ]
+}

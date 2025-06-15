@@ -1,0 +1,4 @@
+[wokwi]
+name = "My Arduino Open Project"
+repository = "https://github.com/Susil1/my-arduino-project"
+description = "POV display using Arduino and 74HC595 shift register"

@@ -3,6 +3,10 @@
 
 This is an open-source Arduino project for creating a POV (Persistence of Vision) LED display using 74HC595 shift registers. It was designed, tested, and simulated using [Wokwi](https://wokwi.com), making it beginner-friendly and fully online-compatible.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## 📷 Features
 
 - 8 or more LEDs controlled via 74HC595 shift register
